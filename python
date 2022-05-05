@@ -34,7 +34,7 @@
     $END$
 
 .openp : Open a Path object
-	ANY   →   with closing($expr$.open()) as $file_name$:\
+	ANY   →   with $expr$.open() as $file_name$:\
     $END$
 
 .for : Iterate through an object
